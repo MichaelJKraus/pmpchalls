@@ -1,4 +1,8 @@
- 
+@import url('https://fonts.googleapis.com/css?family=McLaren|Sonsie+One&display=swap');
+/* 
+font-family: 'McLaren', cursive;
+font-family: 'Sonsie One', cursive;
+ */
 
 colors {
     color: #F7FBFF;
@@ -10,13 +14,19 @@ colors {
 
 .navBar {
     display: flex;
+    direction: row;
     justify-content: space-between;
     text-align: center;
     vertical-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    background-color: #DAE9FA;
 }
 
 #logo {
     height: 100px;
+    padding-top: 10px;
 }
 
 #navLinks {
@@ -43,6 +53,18 @@ colors {
     color: white;
 }
 
+
+.car-sale-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: center;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
 .mission-statement-image>img {
     height: 50vh;
     width: 100%;
@@ -60,18 +82,70 @@ colors {
     padding-bottom: 3%; */
     text-align: center;
     position: absolute;
-    top: 81%;
+    top: 148%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
+}
+
+.car-information-section {
+    display: flex;
+    direction: column;
+    text-align: center;
+    vertical-align: center;
+    padding-right: 150px;
+    padding-left: 150px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.responsive {
+    width: 90%;
+    height: 60%;
 }
 
 body {
     background-color: #F7FBFF;
 }
 
+p { 
+    font-family: 'McLaren', cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sonsie One', cursive;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
     background-color: #DAE9FA;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.footer-phone {
+    background-color: #8698AD;
+    color: #f7FBFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.footer-website {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.footer-email {
+    background-color: #8698AD;
+    color: #f7FBFF;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
